@@ -1,7 +1,7 @@
 # 
 gen Makefile
 ```shell
-reanim_makefile_gen --reanim reanim/ --images-src images/ --makefile-output Makefile --gif-output output/
+pvz-reanim gen_makefile --reanim reanim/ --images-src images/ --makefile-output Makefile --webp-output output/
 ```
 
 gen gif files
@@ -9,6 +9,6 @@ gen gif files
 make .
 ```
 <p align="center">
-<img src="output/SunFlower/SunFlower.anim_idle.gif" alt="example">
-<img src="output/Zombie_bucket/Zombie_bucket.anim_dance.gif" alt="example">
+<img src="output/SunFlower/SunFlower.anim_idle.webp" alt="example">
+<img src="output/Zombie_bucket/Zombie_bucket.anim_dance.webp" alt="example">
 </p>
